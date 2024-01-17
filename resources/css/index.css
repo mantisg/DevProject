@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    display: inline-block;
+}
