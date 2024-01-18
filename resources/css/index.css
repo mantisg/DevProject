@@ -3,7 +3,7 @@ body {
     color: white;
 }
 
-nav {
+header nav {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -14,18 +14,16 @@ nav {
     background-color: #999;
 }
 
-a {
-    color: red;
+header a {
+    color: rgb(98, 12, 12);
     text-decoration: none;
+    padding: 2px;
+    border: 4px outset red;
 }
 
 a:hover {
     color: blue;
     cursor: pointer;
-}
-
-a:visited {
-    color: red;
 }
 
 h1 {
@@ -80,6 +78,18 @@ h3 {
 
 span {
     margin: 10px;
+}
+
+#project-heading {
+    position: relative;
+    display: inline-block;
+    margin: 500px auto;
+}
+
+.project-links {
+    position: relative;
+    display: inline-block;
+    margin: 550px auto;
 }
 
 * {
